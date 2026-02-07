@@ -1,0 +1,19 @@
+{
+  "name": "test-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV='development' node index.js",
+    "build": "cross-env NODE_ENV='production' node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  },
+  "dependencies": {
+    "progress": "^2.0.3"
+  }
+}
